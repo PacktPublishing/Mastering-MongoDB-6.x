@@ -46,7 +46,7 @@ class MongoClient
 
     function insert_many() {
     // insert many documents
-        $documentAlpha = array( "isbn" => "402", "name" => "MongoDB and PHP, 2nd Edition" );
+        $documentAlpha = array( "isbn" => "402", "name" => "MongoDB and PHP, 3rd Edition" );
         $documentBeta  = array( "isbn" => "403", "name" => "MongoDB and PHP, revisited" );
         $result = $this->collection->insertMany([$documentAlpha, $documentBeta]);
 
@@ -75,7 +75,7 @@ class MongoClient
     // bulk write
         $bulk = new MongoDB\Driver\BulkWrite(array("ordered" => true));
         $bulk->insert(array( "isbn" => "401", "name" => "MongoDB and PHP" ));
-        $bulk->insert(array( "isbn" => "402", "name" => "MongoDB and PHP, 2nd Edition" ));
+        $bulk->insert(array( "isbn" => "402", "name" => "MongoDB and PHP, 3rd Edition" ));
         $bulk->update(array("isbn" => "402"), array('$set' => array("price" => 15)));
         $bulk->insert(array( "isbn" => "403", "name" => "MongoDB and PHP, revisited" ));
 
