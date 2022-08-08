@@ -32,7 +32,7 @@ def random_tags():
     return ret
 
 transactions = []
-for line in open('ethereum-data/ethereum-transactions.json', 'rw'):
+for line in open('ethereum-data/ethereum-transactions.json', 'r'):
     transactions.append(json.loads(line))
 for transaction in range(0, 24):
     for group in range(0, 24):
@@ -49,4 +49,4 @@ for transaction in range(0, 24):
             'tags': random_tags()
         }
         transaction_id = collection.insert_one(transaction_doc).inserted_id
-        print transaction_id
+        print(transaction_id)
