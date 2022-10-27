@@ -63,3 +63,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 ## Get to Know the Author
 **Alex Giamas** is a freelance consultant and a hands-on Lead Technical and Data Architect. Over the past 15 years, he has expertise in designing and developing systems for the UK Government (HMRC, Cabinet Office, DIT) and private sector (Amazon ProServe, PwC, Fintech Fortune 500, Yahoo!, Verizon) clients. Alex is an alumnus of the MassChallenge London cohort as the co-founder and CTO of a digital health startup. Alex has authored Mastering MongoDB 3.x and 4.x, both by Packt Publishing. Alex has developed large-scale robust, distributed software systems in Python, JavaScript, Ruby, and Java. He is a MongoDB Certified Developer, a Cloudera Hadoop Certified Developer with Data Science Essentials, and a Carnegie Mellon and Stanford graduate.
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781803243863">https://packt.link/free-ebook/9781803243863 </a> </p>
